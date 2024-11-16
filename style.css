@@ -1,0 +1,47 @@
+.div{
+    background-color: darkgoldenrod;
+   
+    
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(6, 61, 67);
+}
+.navbar-left{
+    padding: 20px;
+    color: rgb(236, 12, 180);
+    text-align: center;
+}
+.navbar-right{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+.a-element{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid green;
+    color:whitesmoke;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h1{
+    padding-left: 200px;
+}
+.p{
+    padding-left: 200px ;
+    justify-content: space-between;
+   width: 50vh;
+}
+.home-right{
+    padding-right: 200px; ;
+    padding-top: 20;
+    padding-bottom: 40px;
+}
